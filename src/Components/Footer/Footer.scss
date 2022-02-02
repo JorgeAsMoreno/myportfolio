@@ -1,0 +1,32 @@
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 2% 0;
+
+  @media screen and (max-width: 425px) {
+    padding: 6% 0;
+  }
+
+  span {
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  svg {
+    animation: pulse .5s infinite alternate ease-in-out;
+    fill: red;
+    margin: 0 10px;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.3);
+    }
+  }
+}

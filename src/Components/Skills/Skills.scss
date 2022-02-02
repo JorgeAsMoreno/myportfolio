@@ -1,0 +1,110 @@
+.skills {
+  background-color: #3c2ceb;
+  display: flex;
+  padding: 8vh 0;
+
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+  }
+  &-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    img {
+      object-fit: contain;
+      max-width: 800px;
+      width: -webkit-fill-available;
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 1024px) {
+      margin: 0 auto;
+    }
+  }
+
+  &-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+    
+    @media screen and (max-width: 1023px) {
+      width: 100%;
+    }
+
+    &_container {
+      box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+      background-color: #fff;
+      border-radius: 10px;
+      margin: 0 4vw;
+      padding: 2rem;
+      text-align: center;
+      @media screen and (max-width: 1023px) {
+        margin: 8vh 4vw 0 4vw;
+        width: -webkit-fill-available;
+      }
+      @media screen and (min-width: 1024px) {
+        margin: 0;
+        width: 65%;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 60%;
+        margin: 0;
+      }
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    h2 {
+      color: #202039;
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #202039;
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+  }
+
+  &-list {
+    display: flex;
+    overflow: hidden;
+
+    img {
+      width: 100px;
+      height: 80px;
+      object-fit: contain;
+      transform:translateX(100%);
+      animation: skillsList 35s linear infinite;
+      margin: 0 40px;
+    }
+  }
+  
+  @keyframes skillsList {
+    0%   { 
+      transform: translateX(1000%); 		
+    }
+    100% { 
+      transform: translateX(-1000%); 
+    }
+  }
+}
+
+
+
+
+

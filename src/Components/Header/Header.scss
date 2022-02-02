@@ -1,0 +1,48 @@
+.header {
+  align-items: center;
+  background-color: #3c2ceb;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(60%2c 44%2c 235%2c 1)'%3e%3c/rect%3e%3cpath d='M0 0L41.42 0L0 149.27z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 149.27L41.42 0L539.6899999999999 0L0 366.81z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 366.81L539.6899999999999 0L1015.5899999999999 0L0 478.14z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 478.14L1015.5899999999999 0L1030.4399999999998 0L0 500.34z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L1425.88 560L1440 502.78z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 502.78L1425.88 560L1326.7900000000002 560L1440 379.32z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 379.32L1326.79 560L536.56 560L1440 160.78z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 160.77999999999997L536.56 560L337.8499999999999 560L1440 72.09999999999997z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 840px;
+  -webkit-box-pack: center;
+
+  @media screen and (max-width: 1024px) {
+    min-height: 640px;
+  }
+
+  &-title {
+    color: #fff;
+    text-align: center;
+    font-size: 8vw;
+    @media (min-width: 1024px) {
+      width: 754px;
+      font-size: 104px;
+      line-height: 104px;
+      padding-bottom: 24px;
+    }
+  }
+
+  &-info {
+    color: #fff;
+    font-size: 6vw;
+    padding-bottom: 24px;
+    text-align: center;
+    @media screen and (min-width: 1024px) {
+      font-size: 18px;
+    }
+  }
+
+  &-button {
+    background: linear-gradient(135deg, #FFAA5F, #FF8B39) !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 4vw !important;
+    font-weight: bold !important;
+    padding: 1% 5% !important;
+    @media screen and (min-width: 1024px) {
+      font-size: 14px !important;
+    }
+  }
+}
