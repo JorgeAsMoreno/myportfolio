@@ -3,10 +3,7 @@ import Card from "./Card";
 import Netflix from './img/netflix.JPG'
 import Airbnb from './img/airbnb.JPG'
 import Github from './img/github.JPG'
-import Sally from './img/sally.JPG'
 import Rick from './img/rick.JPG'
-import Elektra from './img/elektra.JPG'
-import Famsa from './img/famsa.JPG'
 import './Projects.scss';
 
 const Projects = () => {
