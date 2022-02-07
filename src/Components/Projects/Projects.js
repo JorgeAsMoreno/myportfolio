@@ -71,45 +71,6 @@ const Projects = () => {
           react="React"
           code="https://github.com/JorgeAsMoreno/RickAndMorty"
         />
-      <Card
-        alt="Sally Beauty"
-        css="CSS3"
-        imageSource={Sally}
-        javascript="JavaScript"
-        html="HTML5"
-        title="Sally Beauty"
-        scss="SCSS"
-        vtex="VTEX"
-        tachyons="Tachyons"
-        live="https://www.sallymexico.com/"
-      />
-      <Card
-        reverseColumn="reverse"
-        alt="Famsa"
-        css="CSS3"
-        imageSource={Famsa}
-        javascript="JavaScript"
-        html="HTML5"
-        title="Famsa"
-        react="React"
-        scss="SCSS"
-        vtex="VTEX"
-        tachyons="Tachyons"
-        live="https://www.famsa.com/"
-      />
-      <Card
-        alt="Elektra"
-        css="CSS3"
-        imageSource={Elektra}
-        javascript="JavaScript"
-        html="HTML5"
-        title="Elektra"
-        react="React"
-        scss="SCSS"
-        vtex="VTEX"
-        tachyons="Tachyons"
-        live="https://www.elektra.com.mx/"
-      />
     </div>
   )
 }
