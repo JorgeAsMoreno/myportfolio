@@ -4,6 +4,7 @@ import Netflix from './img/netflix.JPG'
 import Airbnb from './img/airbnb.JPG'
 import Github from './img/github.JPG'
 import Rick from './img/rick.JPG'
+import Task from './img/task.JPG'
 import './Projects.scss';
 
 const Projects = () => {
@@ -55,10 +56,22 @@ const Projects = () => {
         jest="Jest"
         scss="SCSS"
         code="https://github.com/JorgeAsMoreno/technical-challenge/tree/development/frontend"
-      />
+        />
         <Card
           reverseColumn="reverse"
-          alt="La Torre"
+          alt="Task list"
+          css="CSS3"
+          imageSource={Task}
+          javascript="JavaScript"
+          html="HTML5"
+          title="Task List"
+          scss="SCSS"
+          react="React"
+          typescript="typescript"
+          code="https://github.com/JorgeAsMoreno/Task-List"
+        />
+        <Card
+          alt="Rick and Morty"
           css="CSS3"
           imageSource={Rick}
           javascript="JavaScript"
