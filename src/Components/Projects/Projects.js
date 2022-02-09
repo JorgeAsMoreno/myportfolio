@@ -45,6 +45,20 @@ const Projects = () => {
         code="https://github.com/JorgeAsMoreno/Airbnb"
       />
       <Card
+        alt="Task list"
+        css="CSS3"
+        imageSource={Task}
+        javascript="JavaScript"
+        html="HTML5"
+        title="Task List"
+        scss="SCSS"
+        react="React"
+        typescript="typescript"
+        live="https://takslist.vercel.app/"
+        code="https://github.com/JorgeAsMoreno/Task-List"
+      />
+      <Card
+        reverseColumn="reverse"
         alt="Github"
         css="CSS3"
         imageSource={Github}
@@ -56,19 +70,6 @@ const Projects = () => {
         jest="Jest"
         scss="SCSS"
         code="https://github.com/JorgeAsMoreno/technical-challenge/tree/development/frontend"
-        />
-        <Card
-          reverseColumn="reverse"
-          alt="Task list"
-          css="CSS3"
-          imageSource={Task}
-          javascript="JavaScript"
-          html="HTML5"
-          title="Task List"
-          scss="SCSS"
-          react="React"
-          typescript="typescript"
-          code="https://github.com/JorgeAsMoreno/Task-List"
         />
         <Card
           alt="Rick and Morty"
